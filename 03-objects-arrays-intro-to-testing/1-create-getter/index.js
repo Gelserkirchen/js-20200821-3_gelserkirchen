@@ -8,7 +8,7 @@ export function createGetter(path) {
     const array = path.split(".");
     let counter = 0;
 
-
+    // closure
     return function (obj) {
         let result;
         findFieldInObject(obj);

@@ -7,8 +7,11 @@
     if (typeof obj !== 'object') {
       return undefined
     }
+
+    // start initialization
     const tmpObj = {};
 
+    // change key -> <- value
     for (let [key, value] of Object.entries(obj)) {
        tmpObj[value] = key;
     }
