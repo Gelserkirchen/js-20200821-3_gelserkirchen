@@ -31,17 +31,4 @@ export function createGetter(path) {
     };
 }
 
-// const product = {
-//   category: {
-//     title: "Goods"
-//   }
-// }
-//
-// const getter = createGetter('category.title');
-//
-// console.log(getter(product)); // Goods
-// let array = ['title']
-//
-// let name = 'category'
-// console.log(product.category[array[0]])
 
